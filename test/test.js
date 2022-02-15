@@ -4,7 +4,7 @@ describe('GET /', function() {
 it('respond with Large Systems Java Application for St2 - version-10!!', function(done) {
 //navigate to root and check the the response is "Large Systems Java Application for St2 - version-10!!"
 request(app).get('/').expect('<h1 style="color:green;">Large Systems Java Application for St2 - version-10!!</h1> \n', done); // expected test response
-return true;
+process.exit();
 });
 });
 
